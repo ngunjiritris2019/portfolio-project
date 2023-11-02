@@ -7,3 +7,11 @@ p {
   font-weight: normal;
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+  border: 2px solid transparent;
+  box-shadow: 2px 2px 32px 7px rgba(60, 135, 131, 0.4);
+  border-radius: 14px;
+  margin: 95px auto;
+  padding-left: 20px;
+}
