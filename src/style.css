@@ -22,7 +22,7 @@ p {
   line-height: 2;
 }
 
-img {
+.hero img {
   box-shadow: var(--box-shadow);
   border-radius: 50%;
 }
@@ -37,4 +37,9 @@ img {
 
 .social-links i {
   margin-right: 10px;
+}
+
+.projects {
+  display: block;
+  text-align: center;
 }
