@@ -47,3 +47,24 @@ p {
   display: block;
   text-align: center;
 }
+
+.projects-header {
+  font-weight: normal;
+  font-size: 16px;
+  padding: 80px 70px;
+  background-color: white;
+}
+
+.description {
+  color: #5f6463;
+}
+
+.content h2 {
+  font-size: 71px;
+}
+
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 24px;
+  }
+}
