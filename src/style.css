@@ -14,3 +14,7 @@ p {
   border-radius: 14px;
   margin: 100px auto;
 }
+
+.social-links i {
+  margin-right: 10px;
+}
