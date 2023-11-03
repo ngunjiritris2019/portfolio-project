@@ -27,7 +27,7 @@ img {
   border-radius: 50%;
 }
 
-.container {
+.hero {
   border: var(--border);
   box-shadow: var(--box-shadow);
   border-radius: 14px;
