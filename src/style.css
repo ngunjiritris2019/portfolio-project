@@ -1,3 +1,7 @@
+:root {
+  --box-shadow: 2px 2px 32px 7px rgba(60, 135, 131, 0.4);
+  --border: 2px solid transparent;
+}
 h1 {
   font-weight: bold;
   font-family: "Playfair Display", sans-serif;
@@ -6,11 +10,17 @@ h1 {
 p {
   font-weight: normal;
   font-family: "Poppins", sans-serif;
+  line-height: 2;
+}
+
+img {
+  box-shadow: var(--box-shadow);
+  border-radius: 50%;
 }
 
 .container {
-  border: 2px solid transparent;
-  box-shadow: 2px 2px 32px 7px rgba(60, 135, 131, 0.4);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
   border-radius: 14px;
   margin: 100px auto;
 }
