@@ -1,6 +1,7 @@
 :root {
   --box-shadow: 2px 2px 32px 7px rgba(60, 135, 131, 0.4);
   --border: 2px solid transparent;
+  --heading-font-family: "Playfair Display", sans-serif;
 }
 
 body {
@@ -13,12 +14,15 @@ body {
 
 h1 {
   font-weight: bold;
-  font-family: "Playfair Display", sans-serif;
+  font-family: var(--heading-font-family);
 }
 
+h2 {
+  font-family: var(--heading-font-family);
+}
 p {
   font-weight: normal;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 2;
 }
 
