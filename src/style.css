@@ -2,6 +2,7 @@
   --box-shadow: 2px 2px 32px 7px rgba(60, 135, 131, 0.4);
   --border: 2px solid transparent;
   --heading-font-family: "Playfair Display", sans-serif;
+  --secondary-font-color: #5f6463;
 }
 
 body {
@@ -56,7 +57,7 @@ p {
 }
 
 .description {
-  color: #5f6463;
+  color: var(--secondary-font-color);
 }
 
 .content h2 {
@@ -67,14 +68,28 @@ p {
   .content h2 {
     font-size: 24px;
   }
+  h1 {
+    font-size: 40px !important;
+  }
 }
 /*about file styling */
+
+.main-header {
+  text-align: center;
+  margin: 50px 30px;
+  font-size: 71px;
+}
 
 .my-info ul {
   list-style-type: none;
   line-height: 4;
+  font-weight: bold;
 }
 
 .my-info img {
   box-shadow: var(--box-shadow);
+}
+
+.titles {
+  color: var(--secondary-font-color);
 }
