@@ -68,3 +68,13 @@ p {
     font-size: 24px;
   }
 }
+/*about file styling */
+
+.my-info ul {
+  list-style-type: none;
+  line-height: 4;
+}
+
+.my-info img {
+  box-shadow: var(--box-shadow);
+}
