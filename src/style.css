@@ -306,3 +306,8 @@ hr {
   right: 388px;
   top: 17%;
 }
+
+.my-work img {
+  background: #50a6dc;
+  padding: 30px auto;
+}
