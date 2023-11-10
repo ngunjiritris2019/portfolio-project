@@ -308,6 +308,12 @@ hr {
 }
 
 .my-work img {
-  background: #50a6dc;
-  padding: 30px auto;
+  padding: 30px;
+  transition: transform 1.2s ease-in-out;
+}
+
+.my-work img:hover {
+  cursor: pointer;
+  transform: translate(10px, 10px);
+  box-shadow: var(--box-shadow);
 }
