@@ -281,3 +281,20 @@ hr {
 .progress.pink .progress-left .progress-bar {
   animation: loading-4 0.4s linear forwards 1.8s;
 }
+
+/*work html styling */
+.title-section {
+  margin: 115px auto;
+}
+
+.title-bg {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 110px;
+  color: #555;
+  line-height: 0.7;
+  position: absolute;
+  font-weight: 800;
+  opacity: 0.2;
+  right: 0;
+}
