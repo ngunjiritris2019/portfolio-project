@@ -65,7 +65,7 @@ p {
 }
 
 @media (max-width: 768px) {
-  .content h2 {
+  h2 {
     font-size: 24px;
   }
   h1 {
@@ -102,6 +102,15 @@ hr {
 
 .titles {
   color: var(--secondary-font-color);
+}
+
+.skills-intro {
+  text-align: center;
+}
+
+.my-skills {
+  margin: 40px 30px 50px 30px;
+  padding-left: 120px;
 }
 
 /*circular progress bars styling*/
