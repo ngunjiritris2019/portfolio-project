@@ -75,6 +75,9 @@ p {
     width: 200px;
     height: 200px;
   }
+  .title-bg {
+    color: transparent !important;
+  }
 }
 
 /*about file styling */
@@ -285,6 +288,11 @@ hr {
 /*work html styling */
 .title-section {
   margin: 115px auto;
+  font-weight: 800;
+}
+
+.title-section h1 {
+  font-size: 48px;
 }
 
 .title-bg {
@@ -294,7 +302,7 @@ hr {
   color: #555;
   line-height: 0.7;
   position: absolute;
-  font-weight: 800;
   opacity: 0.2;
-  right: 0;
+  right: 388px;
+  top: 17%;
 }
