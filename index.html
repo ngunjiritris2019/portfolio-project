@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Beatrice is a software developer based in Nairobi, Kenya"
+    />
     <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -25,12 +29,18 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/index.html">Beatrice Ngunjiri</a>
+        <a href="/index.html" title="main-logo">Beatrice Ngunjiri</a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li>
+            <a href="/about.html" title="About Beatrice">About</a>
+          </li>
+          <li><a href="/work.html" title="Beatrice's work">Work</a></li>
+          <li>
+            <a href="/contact.html" class="active" title="Contact Beatrice"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
@@ -51,7 +61,12 @@
           </div>
           <br />
           <div class="contact-button">
-            <a class="btn btn-info btn-lg text-white" href="#">Let's talk</a>
+            <a
+              class="btn btn-info btn-lg text-white"
+              href="/contact.html"
+              title="Contact Beatrice"
+              >Let's talk</a
+            >
           </div>
         </div>
         <div class="col-md-4">
@@ -59,7 +74,7 @@
             src="images/photo of me.png"
             class="img-fluid"
             width="298"
-            alt="face of a black woman"
+            alt="picture of my face"
           />
         </div>
       </div>
@@ -73,7 +88,7 @@
               src="images/thrift-shop-landing page.png"
               class="img-fluid rounded"
               width="900"
-              alt="thrift-shop-image"
+              alt="thrift-shop-preview"
             />
           </div>
           <div class="col">
@@ -85,7 +100,12 @@
               combines aesthetics with functionality, ensuring a seamless
               shopping experience.
             </p>
-            <a href="#" class="btn btn-outline-info p-3">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-outline-info p-3"
+              title="More about this project"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="row mb-5">
@@ -99,14 +119,19 @@
               insights. Experience how I fused JavaScript and APIs to create a
               user-friendly, informative weather app.
             </p>
-            <a href="#" class="btn btn-outline-info p-3">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-outline-info p-3"
+              title="More about this project"
+              >Learn more</a
+            >
           </div>
           <div class="col d-none d-lg-block">
             <img
               src="images/vanilla-weather app.png"
               class="img-fluid rounded"
               width="900"
-              alt="weather-app-image"
+              alt="weather-app-preview"
             />
           </div>
         </div>
@@ -116,7 +141,7 @@
               src="images/dairy-farm-website.png"
               class="img-fluid rounded"
               width="900"
-              alt="dairy-farm-image"
+              alt="dairy-farm-preview"
             />
           </div>
           <div class="col">
@@ -129,22 +154,33 @@
               experience that showcases the farm's commitment to delivering
               fresh, farm-to-table delights.
             </p>
-            <a href="#" class="btn btn-outline-info p-3">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-outline-info p-3"
+              title="More about this project"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
     </section>
     <footer>
       <div class="my-email d-flex justify-content-center">
-        <a href="mailto:ngunjiritris@gmail.com">ngunjiritris@gmail.com</a>
+        <a href="mailto:ngunjiritris@gmail.com" title="Email Beatrice"
+          >ngunjiritris@gmail.com</a
+        >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/ngunjiritris2019" target="_blank"
+        <a
+          href="https://github.com/ngunjiritris2019"
+          target="_blank"
+          title="Github profile"
           ><i class="fa-brands fa-github" style="color: #50a6dc"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/beatrice-ngunjiri-41775b1b1/"
           target="_blank"
+          title="LinkedIn profile"
           ><i class="fa-brands fa-linkedin-in" style="color: #50a6dc"></i
         ></a>
       </div>
@@ -153,6 +189,7 @@
         <a
           href="https://github.com/ngunjiritris2019/portfolio-project"
           target="_blank"
+          title="Github project source code"
           >open-sourced</a
         >.
       </p>

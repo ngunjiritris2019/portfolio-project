@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Beatrice is a software developer based in Nairobi, Kenya"
+    />
+    <title>Front-end-developer- Beatrice Ngunjiri</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,12 +29,18 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/index.html">Beatrice Ngunjiri</a>
+        <a href="/index.html" title="main-logo">Beatrice Ngunjiri</a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li>
+            <a href="/about.html" title="About Beatrice">About</a>
+          </li>
+          <li><a href="/work.html" title="Beatrice's work">Work</a></li>
+          <li>
+            <a href="/contact.html" class="active" title="Contact Beatrice"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
@@ -44,7 +54,7 @@
           <img
             src="/images/thrift-shop-landing page.png"
             class="img-fluid mb-3 rounded"
-            alt=""
+            alt="Thrift shop page preview"
           />
           <h2 class="text-center">Thrift Shop Page</h2>
           <p class="text-center" style="color: #555">Built with HTML and CSS</p>
@@ -53,13 +63,17 @@
           <img
             src="/images/dairy-farm-website.png"
             class="img-fluid mb-3 rounded"
-            alt=""
+            alt="Dairy farm website preview"
           />
           <h2 class="text-center">Dairy Farm Website</h2>
           <p class="text-center" style="color: #555">Built with HTML and CSS</p>
         </div>
         <div class="col-md-6">
-          <img src="/images/js-app.png" class="img-fluid mb-3 rounded" alt="" />
+          <img
+            src="/images/js-app.png"
+            class="img-fluid mb-3 rounded"
+            alt="Js Weather app preview"
+          />
           <h2 class="text-center">Weather App</h2>
           <p class="text-center" style="color: #555">
             Built with HTML, CSS and JavaScript
@@ -69,7 +83,7 @@
           <img
             src="/images/vanilla-weather app.png"
             class="img-fluid mb-3 rounded"
-            alt=""
+            alt="Vanilla weather app preview"
           />
           <h2 class="text-center">Vanilla Weather App</h2>
           <p class="text-center" style="color: #555">
@@ -81,15 +95,21 @@
     <hr />
     <footer>
       <div class="my-email d-flex justify-content-center">
-        <a href="mailto:ngunjiritris@gmail.com">ngunjiritris@gmail.com</a>
+        <a href="mailto:ngunjiritris@gmail.com" title="Email Beatrice"
+          >ngunjiritris@gmail.com</a
+        >
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/ngunjiritris2019" target="_blank"
+        <a
+          href="https://github.com/ngunjiritris2019"
+          target="_blank"
+          title="Github profile"
           ><i class="fa-brands fa-github" style="color: #50a6dc"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/beatrice-ngunjiri-41775b1b1/"
           target="_blank"
+          title="LinkedIn profile"
           ><i class="fa-brands fa-linkedin-in" style="color: #50a6dc"></i
         ></a>
       </div>
@@ -98,6 +118,7 @@
         <a
           href="https://github.com/ngunjiritris2019/portfolio-project"
           target="_blank"
+          title="Github project source code"
           >open-sourced</a
         >.
       </p>
