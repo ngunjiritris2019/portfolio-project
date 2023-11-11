@@ -3,6 +3,7 @@
   --border: 2px solid transparent;
   --heading-font-family: "Playfair Display", sans-serif;
   --secondary-font-color: #5f6463;
+  --branding-color: #50a6dc;
 }
 
 body {
@@ -21,12 +22,41 @@ h1 {
 h2 {
   font-family: var(--heading-font-family);
 }
+
 p {
   font-weight: normal;
   font-family: "Inter", sans-serif;
   line-height: 2;
 }
 
+/*index file styling*/
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #212529;
+  line-height: 40px;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 .hero img {
   box-shadow: var(--box-shadow);
   border-radius: 50%;
