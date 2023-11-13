@@ -343,11 +343,6 @@ footer .social-links a {
   box-shadow: var(--box-shadow);
 }
 
-/*contact page styling*/
-.contact-box {
-  margin: 50px 60px;
-}
-
 /*media queries*/
 @media (max-width: 768px) {
   h2 {
