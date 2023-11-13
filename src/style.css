@@ -112,12 +112,6 @@ footer .social-links a {
 }
 
 /*about file styling */
-hr {
-  display: block;
-  margin: 20px auto;
-  border: 2px solid #50a6dc;
-  width: 400px;
-}
 .main-header {
   text-align: center;
   margin: 50px 30px;
